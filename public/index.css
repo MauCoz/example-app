@@ -1,0 +1,21 @@
+.side-nav {
+    width: 200px;
+    position: absolute;
+    background-color: #f0f0f0;
+    height: 100vh;
+    padding: 10px;
+    color: white;
+    overflow-y: scroll;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.content {
+    margin-left: 200px;
+}
+
+.header {
+    margin-bottom: 20px;
+}

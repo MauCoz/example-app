@@ -24,4 +24,9 @@ class Order extends Model
     {
         return $this->hasOne(Warehouse::class, "id", "warehouse_id");
     }
+
+    public function customer()
+    {
+        return $this->hasOne(Customer::class, "id", "customer_id");
+    }
 }
