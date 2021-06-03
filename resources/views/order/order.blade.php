@@ -45,11 +45,11 @@
                     <div class="mb-3 row">
                         <label for="staticEmail" class="col-sm-5 col-form-label">Factureren aan</label>
                         <div class="col-sm-7">
-                            <input placeholder="{{ $order->order_item_id }}">
-                            <input placeholder="{{ $order->order_item_id }}">
-                            <input placeholder="{{ $order->order_item_id }}">
-                            <input placeholder="{{ $order->order_item_id }}">
-                            <input placeholder="{{ $order->order_item_id }}">
+                            <input placeholder="{{ $order->customer->first_name }}">
+                            <input placeholder="{{ $order->customer->last_name }}">
+                            <input placeholder="{{ $order->customer->address }}">
+                            <input placeholder="{{ $order->customer->postal_code }}">
+                            <input placeholder="{{ $order->customer->residence }}">
                         </div>
                     </div>
                 </div>
